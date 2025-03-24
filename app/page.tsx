@@ -769,9 +769,9 @@ export default function Home() {
                 </form>
                 <p className="text-xs text-muted-foreground">
                   By submitting this form, you agree to our{" "}
-                  <Button className="underline underline-offset-2">
+                  <p className="underline underline-offset-2">
                     Terms & Conditions
-                  </Button>
+                  </p>
                   .
                 </p>
               </div>
