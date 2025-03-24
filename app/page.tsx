@@ -204,7 +204,7 @@ export default function Home() {
 
         <section
           id="about"
-          className="flex justify-center items-center w-svw py-12 md:py-24 lg:py-32 bg-muted"
+          className="flex justify-center items-center w-svw py-22 md:py-34 lg:py-42 bg-muted"
         >
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -275,7 +275,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="products" className="flex justify-center items-center w-svw py-12 md:py-24 lg:py-32">
+        <section id="products" className="flex justify-center items-center w-svw py-22 md:py-34 lg:py-42">
           <div className="container flex flex-col items-center justify-center px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -383,7 +383,7 @@ export default function Home() {
         </section>
         <section
           id="features"
-          className="flex justify-center items-center w-svw py-12 md:py-24 lg:py-32 bg-muted"
+          className="flex justify-center items-center w-svw py-22 md:py-34 lg:py-42 bg-muted"
         >
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -509,7 +509,7 @@ export default function Home() {
         </section>
         <section
           id="reviews"
-          className="flex justify-center items-center w-svw py-12 md:py-24 lg:py-32"
+          className="flex justify-center items-center w-svw py-22 md:py-34 lg:py-42"
         >
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
