@@ -159,7 +159,7 @@ export default function Home() {
           Contact Us
         </Button>
       </header>
-      <main className="flex flex-col w-svw justify-center items-center">
+      <main className="flex flex-col w-svw justify-center items-center pt-10">
         <section className="flex justify-center items-center w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <div className="grid w-full gap-6 lg:grid-cols-2 lg:gap-12 xl:grid-cols-2">
