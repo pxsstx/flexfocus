@@ -22,7 +22,7 @@ export default function Home() {
         </div>
         <nav className="hidden md:flex gap-6">
           <p
-            className="text-sm font-medium hover:underline underline-offset-4"
+            className="text-sm font-medium hover:underline underline-offset-4 cursor-pointer"
             onClick={(e) => {
               e.preventDefault();
               const mainSection = document.querySelector("main");
@@ -34,7 +34,7 @@ export default function Home() {
             Home
           </p>
           <p
-            className="text-sm font-medium hover:underline underline-offset-4"
+            className="text-sm font-medium hover:underline underline-offset-4 cursor-pointer"
             onClick={(e) => {
               e.preventDefault();
               const aboutSection = document.querySelector("#about");
@@ -46,7 +46,7 @@ export default function Home() {
             About
           </p>
           <p
-            className="text-sm font-medium hover:underline underline-offset-4"
+            className="text-sm font-medium hover:underline underline-offset-4 cursor-pointer"
             onClick={(e) => {
               e.preventDefault();
               const productsSection = document.querySelector("#products");
@@ -58,7 +58,7 @@ export default function Home() {
             Products
           </p>
           <p
-            className="text-sm font-medium hover:underline underline-offset-4"
+            className="text-sm font-medium hover:underline underline-offset-4 cursor-pointer"
             onClick={(e) => {
               e.preventDefault();
               const reviewsSection = document.querySelector("#reviews");
@@ -90,7 +90,7 @@ export default function Home() {
         >
           <div className="flex flex-col gap-4">
             <p
-              className="text-sm font-medium hover:underline underline-offset-4"
+              className="text-sm font-medium hover:underline underline-offset-4 cursor-pointer"
               onClick={(e) => {
                 e.preventDefault();
                 const mainElement = document.querySelector("main");
@@ -106,7 +106,7 @@ export default function Home() {
               Home
             </p>
             <p
-              className="text-sm font-medium hover:underline underline-offset-4"
+              className="text-sm font-medium hover:underline underline-offset-4 cursor-pointer"
               onClick={(e) => {
                 e.preventDefault();
                 const aboutSection = document.querySelector("#about");
@@ -122,7 +122,7 @@ export default function Home() {
               About
             </p>
             <p
-              className="text-sm font-medium hover:underline underline-offset-4"
+              className="text-sm font-medium hover:underline underline-offset-4 cursor-pointer"
               onClick={(e) => {
                 e.preventDefault();
                 const productsElement = document.querySelector("#products");
@@ -138,7 +138,7 @@ export default function Home() {
               Products
             </p>
             <p
-              className="text-sm font-medium hover:underline underline-offset-4"
+              className="text-sm font-medium hover:underline underline-offset-4 cursor-pointer"
               onClick={(e) => {
                 e.preventDefault();
                 const reviewsElement = document.querySelector("#reviews");
